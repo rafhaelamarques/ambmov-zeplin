@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background"
+    android:id="@+id/walkthrough1">
+
+
+    <ImageView
+        android:id="@+id/planets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/planets"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/planets"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="40dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/superb_app_theme"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/text_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginHorizontal="38dp"
+        android:layout_centerVertical="true"
+        android:layout_marginVertical="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto_light"
+        android:text="@string/lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry"/>
+
+    <Button
+        android:id="@+id/buy_button"
+        android:layout_width="122dp"
+        android:layout_height="56dp"
+        android:layout_marginHorizontal="119dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="70dp"
+        android:text="Buy now"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/coral"
+        android:background="@drawable/white_button"
+        android:shadowColor="@color/white_blur"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="155dp"
+        android:layout_marginTop="590dp"
+        android:layout_marginVertical="40dp">
+
+        <ImageView
+            android:id="@+id/filled_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/filled_circle"/>
+
+        <ImageView
+            android:id="@+id/empty_circle_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/unfilled_circle"
+            android:layout_marginHorizontal="10dp"/>
+
+        <ImageView
+            android:id="@+id/empty_circle_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/unfilled_circle"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
