@@ -3,4 +3,23 @@
     <string name="superb_app_theme">Superb App Theme</string>
     <string name="lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
     <string name="login">Login</string>
+    <string name="welcome_nsing_up_now">Welcome,\nsing up now.</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="country">Country</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="allready_have_an_account">ALLREADY HAVE AN ACCOUNT?</string>
+    <string name="log_in"> LOG IN!</string>
+    <string name="hello_there_nwelcome_back">Hello there, \nwelcome back.</string>
+    <string name="log_in2">Log In</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="don_t_have_an_account">Don\'t Have An Account?</string>
+    <string name="profile">Profile</string>
+    <string name="john_bergen">John Bergen</string>
+    <string name="new_york_ny">New York, NY</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the \nprinting and typesetting industry.</string>
+    <string name="about">About</string>
+    <string name="connect">Connect</string>
 </resources>

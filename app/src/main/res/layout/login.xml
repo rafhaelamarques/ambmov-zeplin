@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:id="@+id/login">
+
+    <ImageButton
+        android:layout_width="18dp"
+        android:layout_height="12dp"
+        android:layout_marginRight="122.5dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/menu_icon"
+        android:background="@color/transparent"/>
+
+    <TextView
+        android:id="@+id/login_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="45dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/login"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/welcome_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_there_nwelcome_back"
+        android:textSize="36sp"
+        android:layout_marginVertical="120dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="84dp"
+        android:fontFamily="@font/roboto_light"
+        android:layout_alignParentLeft="true"/>
+
+    <EditText
+        android:id="@+id/email_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="284dp"
+        android:fontFamily="@font/roboto_light"
+        android:hint="@string/email"
+        android:paddingVertical="29dp"
+        android:textSize="16sp"
+        android:background="@drawable/outline_stroke" />
+
+    <EditText
+        android:id="@+id/password_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/email_txt"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="40dp"
+        android:paddingVertical="29dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto_light"
+        android:background="@drawable/outline_stroke" />
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:text="@string/log_in2"
+        android:textAllCaps="true"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="40dp"
+        android:layout_below="@+id/password_txt"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/white_button"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="16sp"
+        android:textColor="@color/coral"/>
+
+    <LinearLayout
+        android:id="@+id/forgot_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/signup_btn"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/account_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="@string/forgot_password"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" GET NEW!"
+            android:layout_marginBottom="22dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="12sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/signup_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/signup_btn"
+        android:layout_marginTop="54dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="@string/don_t_have_an_account"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" SIGN UP!"
+            android:layout_marginBottom="22dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="12sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</RelativeLayout>
